@@ -1,0 +1,27 @@
+2023-11-14 21:02:1699966941	name=class.map description=system person typename=St3mapISs6PersonSt4lessISsESaISt4pairIKSsS0_EEE val=[]
+2023-11-14 21:02:1699966941	name=class.person description=system person typename=6Person val=name: ""
+age: 0
+sex: false
+2023-11-14 21:02:1699966941	name=class.vec_map description=system person typename=St3mapISsSt6vectorI6PersonSaIS1_EESt4lessISsESaISt4pairIKSsS3_EEE val=[]
+2023-11-14 21:02:1699966941	name=fiber.stack_size description=fiber stack size typename=j val=1048576
+2023-11-14 21:02:1699966941	name=http.request.buffer_size description=http request buffer size typename=m val=4096
+2023-11-14 21:02:1699966941	name=http.request.max_body_size description=http request max_body_size typename=m val=67108864
+2023-11-14 21:02:1699966941	name=http.response.buffer_size description=http response buffer size typename=m val=4096
+2023-11-14 21:02:1699966941	name=http.response.max_body_size description=http response max_body_size typename=m val=67108864
+2023-11-14 21:02:1699966941	name=logs description=logs config typename=St3setIN5sylar9LogDefineESt4lessIS1_ESaIS1_EE val=- name: root
+  level: INFO
+  formatter: "%d%T%m%n"
+  appenders:
+    - type: FileAppender
+      file: root.txt
+    - type: StdoutAppender
+- name: system
+  level: DEBUG
+  formatter: "%d%T%m%n"
+  appenders:
+    - type: FileAppender
+      file: system.txt
+      formatter: "%d%T[%p]%T%m%n"
+    - type: StdoutAppender
+2023-11-14 21:02:1699966941	name=tcp.connect.timeout description=tcp connect timeout typename=i val=5000
+2023-11-14 21:02:1699966941	name=tcp_server.read_timeout description=tcp_server read timeout typename=m val=120000
